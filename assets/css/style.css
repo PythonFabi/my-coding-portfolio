@@ -1,5 +1,12 @@
+:root {
+    --antique-white: antiquewhite;
+    --space: #33393f;
+}
+
+
+
 body {
-    background-image: linear-gradient(
-        rgba(32, 73, 208, 0.3) 0%,
-        rgba(21, 119, 199, 0.6) 100%
-    ); }
+ background-image: url(/assets/images/space-bg.jpg);
+ background-size: cover;
+ color: var(--antique-white);
+}
