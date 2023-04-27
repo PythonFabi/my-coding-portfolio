@@ -2,11 +2,11 @@
     --antique-white: antiquewhite;
     --space: #33393f;
 }
-
+/* Add purple or red shadow to text */
 
 
 body {
- background-image: url(/assets/images/space-bg.jpg);
+ background-image: url(../images/space-bg.jpg);
  background-size: cover;
  color: var(--antique-white);
 }
