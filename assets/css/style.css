@@ -1,13 +1,51 @@
 :root {
     --antique-white: antiquewhite;
     --space: #33393f;
+    --bright-blue: #1DFBFF;
 }
 /* Add purple or red shadow to text */
 
+::selection {
+    background-color: ;}
+
+html {
+    font-size: 68.75%;
+}
 
 body {
  background-image: url(../images/space-bg.jpg);
  background-size: cover;
  color: var(--antique-white);
+ text-shadow: 1px 2px 2px var(--bright-blue);
+ line-height: 1.5;
  /* font-family:'consolas' */
 }
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
