@@ -2,11 +2,14 @@
     --antique-white: antiquewhite;
     --space: #33393f;
     --bright-blue: #1DFBFF;
+    --neon-pink: #FB63FF;
 }
 /* Add purple or red shadow to text */
 
 ::selection {
-    background-color: ;}
+    background-color: var(--neon-pink);
+    color: var(--space);
+}
 
 html {
     font-size: 68.75%;
@@ -49,3 +52,9 @@ p {
     margin-bottom: 1em;
 }
 
+header {
+ background-color: var(--space);
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
