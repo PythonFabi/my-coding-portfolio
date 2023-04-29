@@ -6,15 +6,18 @@
 }
 /* Add purple or red shadow to text */
 
+/* adds background and color for selection */
 ::selection {
     background-color: var(--neon-pink);
     color: var(--space);
 }
 
+/* base size of 11px */
 html {
     font-size: 68.75%;
 }
 
+/* background-image, main font-color, line-height 1.5 and font-size 1.75*11px */
 body {
  background-image: url(../images/space-bg.jpg);
  background-size: cover;
@@ -24,6 +27,7 @@ body {
  /* font-family:'consolas' */
 }
 
+/* set base sizes for headings */
 h1 {
     font-size: 3em;
 }
@@ -48,6 +52,7 @@ h6 {
     font-size: 0.5em;
 }
 
+/* margin around p */
 p {
     margin: 1em;
 }
@@ -60,11 +65,13 @@ header {
  justify-content: space-between;
 }
 
+/* Styles for the icon in the header */
 header img {
     margin: 1.5rem;
     border-radius: 100px;
-    width: 7rem;
-    height: 7rem;
+    width: 9rem;
+    height: 9rem;
+    text-align: center;
 }
 
 /* Add glow to image links */
@@ -92,11 +99,42 @@ main .content-section {
     flex-wrap: nowrap;
 }
 
+/* put in media query more about myself in the bottom for bigger screen sizes */
 main .content-section .section-header {
     margin: 0 1rem;
     padding: 0 1rem;
+    /* border: 3px solid var(--antique-white); */
 }
+
+/* details have margin in the bottom of 2rem */
+main .content-section .about-me-content details {
+    margin-bottom: 2rem;
+} 
 
 main .content-section .work-section {
     margin-left: 3rem;
+}
+
+main .content-section .work-section .project-card {
+    border: 3px solid var(--bright-blue);
+    margin: 1rem;
+}
+
+main .content-section .work-section .project-card a img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main .content-section .work-section .project-card .card-description {
+    font-size: 0.625rem;
+    position: absolute;
+   
+
+}
+
+@media screen and (min-width:768px) {
+ header img{
+    height: 7rem;
+    width: 7rem;
+ }
 }
