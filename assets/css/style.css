@@ -19,8 +19,8 @@ body {
  background-image: url(../images/space-bg.jpg);
  background-size: cover;
  color: var(--antique-white);
- text-shadow: 1px 2px 2px var(--bright-blue);
  line-height: 1.5;
+ font-size: 1.75rem;
  /* font-family:'consolas' */
 }
 
@@ -49,12 +49,54 @@ h6 {
 }
 
 p {
-    margin-bottom: 1em;
+    margin: 1em;
 }
 
 header {
  background-color: var(--space);
  display: flex;
+ flex-wrap: wrap;
  flex-direction: row;
  justify-content: space-between;
+}
+
+header img {
+    margin: 1.5rem;
+    border-radius: 100px;
+    width: 7rem;
+    height: 7rem;
+}
+
+/* Add glow to image links */
+
+header nav ul li {
+    display: inline-block;
+    margin: 2rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+header .developer-name {
+    margin: 1rem 0;
+    background-color: var(--bright-blue);
+    color: var(--space);
+}
+
+header nav ul li a {
+    color: var(--bright-blue);
+}
+
+main .content-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+main .content-section .section-header {
+    margin: 0 1rem;
+    padding: 0 1rem;
+}
+
+main .content-section .work-section {
+    margin-left: 3rem;
 }
