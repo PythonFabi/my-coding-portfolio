@@ -1,13 +1,200 @@
 :root {
     --antique-white: antiquewhite;
     --space: #33393f;
+    --bright-blue: #1DFBFF;
+    --neon-pink: #FB63FF;
 }
 /* Add purple or red shadow to text */
 
+/* adds background and color for selection */
+::selection {
+    background-color: var(--neon-pink);
+    color: var(--space);
+}
 
+/* base size of 11px */
+html {
+    font-size: 68.75%;
+}
+
+/* background-image, main font-color, line-height 1.5 and font-size 1.75*11px */
 body {
  background-image: url(../images/space-bg.jpg);
  background-size: cover;
  color: var(--antique-white);
+ line-height: 1.5;
+ font-size: 1.75rem;
  /* font-family:'consolas' */
+}
+
+/* set base sizes for headings */
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.5em;
+}
+
+/* margin around p */
+p {
+    margin: 0.5em;
+}
+
+header {
+ background-color: var(--space);
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+/* Styles for the icon in the header */
+header img {
+    margin: 1.5rem;
+    border-radius: 100px;
+    width: 9rem;
+    height: 9rem;
+    text-align: center;
+}
+
+/* Add glow to image links */
+
+header nav ul li {
+    display: inline-block;
+    margin: 2rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+/* Sets background and font-color for the heading */
+header .developer-name {
+    margin: 1rem 0;
+    background-color: var(--bright-blue);
+    color: var(--space);
+}
+
+header nav ul li a {
+    color: var(--bright-blue);
+}
+
+/* content-sections are displayed as flexbox, no wrap, and with a top and bottom margin of 4rem */
+.content-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 4rem 0;
+}
+
+
+/* put in media query more about myself in the bottom for bigger screen sizes, add border on the right */
+.content-section .section-header {
+    margin: 0 1rem;
+    padding: 0 1rem;
+    border-right: 3px solid var(--antique-white);
+    font-size: 3rem;
+}
+
+/* add padding on the right to align borders */
+.content-section .work-header {
+    padding-right: 2.3rem ;
+}
+
+/* details have margin in the bottom of 2rem */
+.content-section .about-me-content details {
+    margin-bottom: 2rem;
+} 
+
+/* Apply flexbox inside work section */
+.content-section .work-section {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+/* sets background color for project cards and sets a margin in between */
+.content-section .work-section .project-card {
+    border: 3px solid var(--bright-blue);
+    margin: 1rem;
+}
+
+/* make 1st item bigger than the other one´s */
+.content-section .work-section .first-project {
+ flex: 2 1 100%;
+}
+
+/* make other two items display next to eachother, half the size of the first item */
+.content-section .work-section .more-projects {
+    flex: 1 1 2em; 
+
+
+}
+
+
+/* link color */
+.content-section .work-section .project-card a{
+    color: var(--bright-blue);
+}
+
+.content-section .work-section .project-card a img {
+    max-width: 100%;
+    max-height:100%;   
+}
+
+.card-description-a, 
+.card-description-b, 
+.card-description-c{
+    font-size: 0.35em;
+    position: absolute;
+    background-color: var(--bright-blue);
+    color: var(--space);
+}
+
+.content-section .contact-header {
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
+}
+
+.contact-info {
+    padding-left: 1rem;
+}
+
+
+ .contact-info ul li {
+    display: inline-block;
+    margin: 1rem;
+    color: var(--antique-white);
+}
+
+ .contact-info ul li a {
+    color: var(--antique-white);
+
+
+}
+
+
+@media screen and (min-width:768px) {
+ header img{
+    height: 7rem;
+    width: 7rem;
+ }
 }
