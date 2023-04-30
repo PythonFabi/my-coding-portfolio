@@ -63,6 +63,7 @@ header {
  flex-wrap: wrap;
  flex-direction: row;
  justify-content: space-between;
+ width: 100%;
 }
 
 /* Styles for the icon in the header */
@@ -135,6 +136,7 @@ header nav ul li a {
 .content-section .work-section .project-card {
     border: 3px solid var(--bright-blue);
     margin: 1rem;
+    position: relative;
 }
 
 /* make 1st item bigger than the other one´s */
@@ -155,11 +157,15 @@ header nav ul li a {
     color: var(--bright-blue);
 }
 
+/* makes images fit inside the border */
 .content-section .work-section .project-card a img {
-    max-width: 100%;
-    max-height:100%;   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
 }
 
+/* position card descriptions */
 .card-description-a, 
 .card-description-b, 
 .card-description-c{
@@ -167,8 +173,11 @@ header nav ul li a {
     position: absolute;
     background-color: var(--bright-blue);
     color: var(--space);
+    bottom: 3em;
+    left: 0;
 }
 
+/* modify´s the contact-header "Contact Me" */
 .content-section .contact-header {
     font-size: 2.5rem;
     padding-right: 0.5rem;
