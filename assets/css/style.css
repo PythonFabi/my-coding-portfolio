@@ -54,7 +54,7 @@ h6 {
 
 /* margin around p */
 p {
-    margin: 1em;
+    margin: 0.5em;
 }
 
 header {
@@ -93,27 +93,35 @@ header nav ul li a {
     color: var(--bright-blue);
 }
 
-main .content-section {
+/* content-sections are displayed as flexbox, no wrap, and with a top and bottom margin of 4rem */
+.content-section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin: 4rem 0;
 }
 
 
-/* put in media query more about myself in the bottom for bigger screen sizes */
-main .content-section .section-header {
+/* put in media query more about myself in the bottom for bigger screen sizes, add border on the right */
+.content-section .section-header {
     margin: 0 1rem;
     padding: 0 1rem;
-    /* border: 3px solid var(--antique-white); */
+    border-right: 3px solid var(--antique-white);
+    font-size: 3rem;
+}
+
+/* add padding on the right to align borders */
+.content-section .work-header {
+    padding-right: 2.3rem ;
 }
 
 /* details have margin in the bottom of 2rem */
-main .content-section .about-me-content details {
+.content-section .about-me-content details {
     margin-bottom: 2rem;
 } 
 
 /* Apply flexbox inside work section */
-main .content-section .work-section {
+.content-section .work-section {
     margin-left: 3rem;
     display: flex;
     flex-direction: row;
@@ -122,39 +130,56 @@ main .content-section .work-section {
     height: 100%;
 }
 
-main .content-section .work-section .project-card {
+.content-section .work-section .project-card {
     border: 3px solid var(--bright-blue);
     margin: 1rem;
 }
 
-main .content-section .work-section .first-project {
+.content-section .work-section .first-project {
  flex: 2 1 100%;
 }
 
 
-main .content-section .work-section .more-projects {
+.content-section .work-section .more-projects {
     flex: 1 1 2em; 
 
 
 }
 
-main .content-section .work-section .project-card a img {
+.content-section .work-section .project-card a img {
     max-width: 100%;
     max-height:100%
 }
 
-main .content-section .work-section .project-card .card-description {
+.content-section .work-section .project-card .card-description {
     font-size: 0.35em;
     position: absolute;
    
 
 }
 
-footer .footer-content{
-    display: flex;
+.content-section .contact-header {
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
+}
+
+.contact-info {
+    padding-left: 1rem;
+}
+
+
+ .contact-info ul li {
+    display: inline-block;
+    margin: 1rem;
+    color: var(--antique-white);
+}
+
+ .contact-info ul li a {
+    color: var(--antique-white);
 
 
 }
+
 
 @media screen and (min-width:768px) {
  header img{
