@@ -83,6 +83,7 @@ header nav ul li {
     font-size: 2rem;
 }
 
+/* Sets background and font-color for the heading */
 header .developer-name {
     margin: 1rem 0;
     background-color: var(--bright-blue);
@@ -130,32 +131,42 @@ header nav ul li a {
     height: 100%;
 }
 
+/* sets background color for project cards and sets a margin in between */
 .content-section .work-section .project-card {
     border: 3px solid var(--bright-blue);
     margin: 1rem;
 }
 
+/* make 1st item bigger than the other one´s */
 .content-section .work-section .first-project {
  flex: 2 1 100%;
 }
 
-
+/* make other two items display next to eachother, half the size of the first item */
 .content-section .work-section .more-projects {
     flex: 1 1 2em; 
 
 
 }
 
-.content-section .work-section .project-card a img {
-    max-width: 100%;
-    max-height:100%
+
+/* link color */
+.content-section .work-section .project-card a{
+    color: var(--bright-blue);
 }
 
-.content-section .work-section .project-card .card-description {
+.content-section .work-section .project-card a img {
+    max-width: 100%;
+    max-height:100%;   
+}
+
+.card-description-a, 
+.card-description-b, 
+.card-description-c{
     font-size: 0.35em;
     position: absolute;
-   
-
+    background-color: var(--bright-blue);
+    color: var(--space);
 }
 
 .content-section .contact-header {
