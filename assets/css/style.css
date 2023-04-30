@@ -139,6 +139,10 @@ header nav ul li a {
     position: relative;
 }
 
+.content-section .work-section .project-card:hover {
+    box-shadow: inset 0 0 8px var(--bright-blue), 0 0 15px var(--bright-blue);
+}
+
 /* make 1st item bigger than the other one´s */
 .content-section .work-section .first-project {
  flex: 2 1 100%;
@@ -162,8 +166,14 @@ header nav ul li a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  
+    opacity: 0.8;
 }
+
+.content-section .work-section .project-card a img:hover {
+    opacity: 1;
+}
+
+
 
 /* position card descriptions */
 .card-description-a, 
@@ -175,6 +185,7 @@ header nav ul li a {
     color: var(--space);
     bottom: 3em;
     left: 0;
+    z-index: 1;
 }
 
 /* modify´s the contact-header "Contact Me" */
@@ -183,6 +194,7 @@ header nav ul li a {
     padding-right: 0.5rem;
 }
 
+/* padding on the left of contact links 1rem */
 .contact-info {
     padding-left: 1rem;
 }
