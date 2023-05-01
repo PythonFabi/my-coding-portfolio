@@ -1,3 +1,4 @@
+/* setting root colors for reuse */
 :root {
     --antique-white: antiquewhite;
     --space: #33393f;
@@ -57,21 +58,31 @@ p {
     margin: 0.5em;
 }
 
+/* Styling for the header element and turn it into flexbox */
 header {
  background-color: var(--space);
  display: flex;
  flex-wrap: wrap;
  flex-direction: row;
  justify-content: space-between;
- width: 100%;
+ background-size: cover;
+}
+
+/* Sets background and font-color for the heading */
+header .developer-name {
+    margin: 1rem 0;
+    background-color: var(--bright-blue);
+    color: var(--space);
+    font-size: 3rem;
+    margin-bottom: 6rem;
 }
 
 /* Styles for the icon in the header */
 header img {
     margin: 1.5rem;
     border-radius: 100px;
-    width: 9rem;
-    height: 9rem;
+    width: 7rem;
+    height: 7rem;
     text-align: center;
 }
 
@@ -81,16 +92,11 @@ header nav ul li {
     display: inline-block;
     margin: 2rem;
     padding-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: -3rem;
 }
 
-/* Sets background and font-color for the heading */
-header .developer-name {
-    margin: 1rem 0;
-    background-color: var(--bright-blue);
-    color: var(--space);
-}
-
+/* sets color of links */
 header nav ul li a {
     color: var(--bright-blue);
 }
@@ -112,15 +118,27 @@ header nav ul li a {
     font-size: 3rem;
 }
 
+/* set base size for about me content */
+.about-me-content {
+    font-size: 1rem;
+}
+
+
+/* details have margin in the bottom of 2rem and padding of 1rem */
+.content-section .about-me-content details {
+    margin-bottom: 2rem;
+    padding: 1rem;
+} 
+
+/* margin for the summary element in the about me content */
+summary {
+    margin: 1rem;
+}
+
 /* add padding on the right to align borders */
 .content-section .work-header {
     padding-right: 2.3rem ;
 }
-
-/* details have margin in the bottom of 2rem */
-.content-section .about-me-content details {
-    margin-bottom: 2rem;
-} 
 
 /* Apply flexbox inside work section */
 .content-section .work-section {
@@ -139,9 +157,7 @@ header nav ul li a {
     position: relative;
 }
 
-.content-section .work-section .project-card:hover {
-    box-shadow: inset 0 0 8px var(--bright-blue), 0 0 15px var(--bright-blue);
-}
+
 
 /* make 1st item bigger than the other one´s */
 .content-section .work-section .first-project {
@@ -169,24 +185,43 @@ header nav ul li a {
     opacity: 0.8;
 }
 
+/* make images appear clear when hover */
 .content-section .work-section .project-card a img:hover {
     opacity: 1;
 }
 
 
-
-/* position card descriptions */
+/* card description styling*/
 .card-description-a, 
 .card-description-b, 
 .card-description-c{
-    font-size: 0.35em;
+    font-size: 0.14em;
     position: absolute;
     background-color: var(--bright-blue);
     color: var(--space);
-    bottom: 3em;
+    bottom: 0;
     left: 0;
     z-index: 1;
+    margin-right: 6em;
 }
+
+/* set base size for card-header */
+.card-heading {
+    font-size: 3.2em;
+  } 
+
+/* set base size for card-description */
+.card-description-a p, 
+.card-description-b p, 
+.card-description-c p{
+  font-size: 2em;
+}
+
+/* Add hover effect for project cards */
+.content-section .work-section .project-card:hover {
+    box-shadow: inset 0 0 8px var(--bright-blue), 0 0 15px var(--bright-blue);
+}
+
 
 /* modify´s the contact-header "Contact Me" */
 .content-section .contact-header {
@@ -199,23 +234,121 @@ header nav ul li a {
     padding-left: 1rem;
 }
 
-
+/* display for links as list items */
  .contact-info ul li {
     display: inline-block;
     margin: 1rem;
-    color: var(--antique-white);
 }
 
+/* color and size for contact link */
  .contact-info ul li a {
     color: var(--antique-white);
+    font-size: 1.3rem;
 
 
 }
 
+
+/* media queries for card-descriptions, header, about me content and contact links */
+@media screen and (min-width:360px) {
+    .card-description-a, 
+    .card-description-b, 
+    .card-description-c {
+        font-size: 0.16em;
+        bottom: 1em;
+    }
+} 
+
+@media screen and (min-width:545px) {
+    header .developer-name {
+        font-size: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    header img{
+        height: 8rem;
+        width: 8rem;
+     }
+
+    header nav ul li {
+        margin-top: 0rem;
+    }
+
+    
+    .about-me-content {
+        font-size: 1.3rem;
+    }
+
+    .card-description-a, 
+    .card-description-b, 
+    .card-description-c {
+        font-size: 0.20em;
+        bottom: 5em;
+        padding-right: 1.5em;
+    }
+
+    .contact-info ul li a {
+        font-size: 1.6rem;
+    }
+
+} 
+
+@media screen and (min-width:630px) {
+    header .developer-name {
+        font-size: 5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    header img{
+        height: 9rem;
+        width: 9rem;
+     }
+
+    header nav ul li {
+        margin-top: 3rem;
+    }
+
+  
+    .about-me-content {
+        font-size: 1.8rem;
+    }
+
+    .card-description-a, 
+    .card-description-b, 
+    .card-description-c {
+        font-size: 0.23em;
+    }
+
+    .contact-info ul li a {
+        font-size: 1.8rem;
+    }
+
+
+    
+} 
 
 @media screen and (min-width:768px) {
- header img{
-    height: 7rem;
-    width: 7rem;
- }
-}
+    header img{
+        margin-top: 2.5rem;
+        height: 8rem;
+        width: 8rem;
+     }
+
+     header nav ul li {
+        margin-top: 4rem;
+        font-size: 2rem;
+    }
+
+    .card-description-a, 
+    .card-description-b, 
+    .card-description-c {
+        font-size: 0.30em;
+    }
+
+    .contact-info ul li a {
+        font-size: 2rem;
+    }
+
+  
+} 
