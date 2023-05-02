@@ -7,13 +7,27 @@ Enjoy!
 
 
 ## Usage
-On the top of the page, you can see a navigation bar, next to my developer-name: Pythonfabi and my avatar. With the navigation bar, you can scroll to the "About Me" section, which, provides some information about myself and if you want to know some more about me, you can click on the arrow "More about myself".
+On the top of the page, you can see a navigation bar, next to my developer-name: Pythonfabi and my avatar.![nav-bar-portfolio](https://user-images.githubusercontent.com/129299589/235573692-88a626b4-3d30-473e-9ef7-2fd6379f3171.png)
+
+ With the navigation bar, you can scroll to the "About Me" section, which, provides some information about myself and if you want to know some more about me, you can click on the arrow "More about myself".
+ 
+ ![more-portfolio](https://user-images.githubusercontent.com/129299589/235573747-c359bc52-256b-4cc5-8326-8fe81acdecde.png)
+
 
 The work link scrolls to the work-section, which redirects you to all my projects, if you click on the project-images. Hover over the images to see the magic!
 
+![project-hover](https://user-images.githubusercontent.com/129299589/235573769-5436fcf8-8a37-406c-bcc3-7bca4c7fe802.png)
+
+
 The Contact Me section provides links with my Phone number, Email, Github, Twitter, Instagram and Spotify.
 
+![contact-portfolio](https://user-images.githubusercontent.com/129299589/235573823-dcb2b648-4395-41a3-8edb-c689723af161.png)
+
+
 And last, but not least the Resume page will redirect you to a page that you can see for yourself!
+
+![resume-portfolio](https://user-images.githubusercontent.com/129299589/235573852-55bed475-5c8f-4b56-b8ac-eefdafc9e9b9.png)
+
 
 ## Credits
 Wireframe created with Figma [Wireframe](https://www.figma.com/file/8nFKLrlJXIOiZMW0oSNys1/Portfolio?type=design&node-id=0-1&t=OPQp0iw4KMlsRhOZ-0)
