@@ -29,6 +29,20 @@ And last, but not least the Resume page will redirect you to a page that you can
 
 ![resume-portfolio](https://user-images.githubusercontent.com/129299589/235573852-55bed475-5c8f-4b56-b8ac-eefdafc9e9b9.png)
 
+Watch my portfolio on any device and change the size however you like!
+
+large:
+
+![large-screen](https://user-images.githubusercontent.com/129299589/235575121-285d006b-a106-493d-b860-47a6fd0525df.png)
+ 
+ 
+ small:
+ 
+![mobile-screen](https://user-images.githubusercontent.com/129299589/235575141-10532cec-8be3-4c1f-81f6-74e0e3ad8bf8.png)
+
+Enjoy!
+
+
 
 ## Credits
 Wireframe created with Figma [Wireframe](https://www.figma.com/file/8nFKLrlJXIOiZMW0oSNys1/Portfolio?type=design&node-id=0-1&t=OPQp0iw4KMlsRhOZ-0)
