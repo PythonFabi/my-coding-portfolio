@@ -17,12 +17,19 @@ And last, but not least the Resume page will redirect you to a page that you can
 
 ## Credits
 Wireframe created with Figma [Wireframe](https://www.figma.com/file/8nFKLrlJXIOiZMW0oSNys1/Portfolio?type=design&node-id=0-1&t=OPQp0iw4KMlsRhOZ-0)
-Avatar Image:[3D-Python-Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F4307976-Python-Logo-Abstract&psig=AOvVaw1I2fpKR-XfUIxaeZnUzIuc&ust=1683081772319000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOCv-KnO1f4CFQAAAAAdAAAAABAE)
-All images provided by [pexels.com](https://www.pexels.com/):
+
+Avatar Image: [3D-Python-Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F4307976-Python-Logo-Abstract&psig=AOvVaw1I2fpKR-XfUIxaeZnUzIuc&ust=1683081772319000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOCv-KnO1f4CFQAAAAAdAAAAABAE)
+
+All images provided by [pexels.com](https://www.pexels.com/): 
+
 [Background Image](https://www.pexels.com/photo/photo-of-deep-sky-object-816608/)
+
 [Astronaut on Moon](https://www.pexels.com/photo/space-research-science-astronaut-41162/)
+
 [Spaceship in Space](https://www.pexels.com/photo/flight-sky-earth-space-2159/)
+ 
 [spaceX rocket](https://www.pexels.com/photo/rocket-installed-on-launch-tower-and-ready-for-liftoff-586088/)
+
 [Universe](https://www.pexels.com/photo/gray-and-black-galaxy-wallpaper-2150/)
 
 
