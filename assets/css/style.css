@@ -121,6 +121,7 @@ header nav ul li a {
 /* set base size for about me content */
 .about-me-content {
     font-size: 1rem;
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -155,6 +156,7 @@ summary {
     border: 3px solid var(--bright-blue);
     margin: 1rem;
     position: relative;
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -244,6 +246,7 @@ summary {
  .contact-info ul li a {
     color: var(--antique-white);
     font-size: 1.3rem;
+    transition: all 0.5s ease-in-out;
 
 
 }
