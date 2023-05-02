@@ -5,6 +5,7 @@ Welcome to my Portfolio! Here you can see some information about myself, which c
 This portfolio is a great way to implement advanced CSS on a well structured HTML page, which leads you to my other projects.
 Enjoy!
 
+[Link to portfolio](https://pythonfabi.github.io/my-coding-portfolio/)
 
 ## Usage
 On the top of the page, you can see a navigation bar, next to my developer-name: Pythonfabi and my avatar.![nav-bar-portfolio](https://user-images.githubusercontent.com/129299589/235573692-88a626b4-3d30-473e-9ef7-2fd6379f3171.png)
