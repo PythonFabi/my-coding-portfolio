@@ -138,7 +138,7 @@ summary {
 
 /* add padding on the right to align borders */
 .content-section .work-header {
-    padding-right: 2.3rem ;
+    padding-right: 2.7rem ;
 }
 
 /* Apply flexbox inside work section */
@@ -228,7 +228,7 @@ summary {
 
 /* modify´s the contact-header "Contact Me" */
 .content-section .contact-header {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     padding-right: 0.3rem;
 }
 
