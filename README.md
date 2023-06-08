@@ -33,12 +33,14 @@ Watch my portfolio on any device and change the size however you like!
 
 large:
 
-![large-screen](https://user-images.githubusercontent.com/129299589/235575121-285d006b-a106-493d-b860-47a6fd0525df.png)
+![update-laptop-screen](https://user-images.githubusercontent.com/129299589/236228082-e8e3f589-9466-41e3-b136-65021a2efa93.png)
  
  
  small:
  
-![mobile-screen](https://user-images.githubusercontent.com/129299589/235575141-10532cec-8be3-4c1f-81f6-74e0e3ad8bf8.png)
+![update-mobile-screen](https://user-images.githubusercontent.com/129299589/236228222-df96beaf-2f55-4f36-be36-22c24789a130.png)
+
+
 
 Enjoy!
 
